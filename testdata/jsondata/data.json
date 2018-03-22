@@ -1,0 +1,216 @@
+{
+  "type": "world",
+  "name": "Plastweld",
+  "imageroot": "src/assets/img/lake.jpg",
+  "objects": [
+    {
+      "code": "PLS1021",
+      "name": "PW-Spa Classic",
+      "price": 1950,
+      "objects": [
+        {
+          "type": "object",
+          "name": "Kylpytynnyrin pohjaosa/bottom",
+          "instances": [
+            {
+              "code": "PLS231",
+              "name": "Pohja 1800",
+              "json3d": "src/assets/models/bottom.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 550
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Kylpytynnyrin Kansi/cap",
+          "instances": [
+            {
+              "code": "PLS251B",
+              "name": "Musta Kansi",
+              "json3d": "src/assets/models/capblack.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 199
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Kamiina/power",
+          "instances": [
+            {
+              "code": "PLS601I",
+              "name": "30 kW",
+              "json3d": "src/assets/models/power.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 699
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Piippupaketti/pipe",
+          "instances": [
+            {
+              "code": "PLS613E",
+              "name": "Piippupaketti",
+              "json3d": "src/assets/models/pipe.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 50
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Sisainen/inner",
+          "instances": [
+            {
+              "code": "PLS614E",
+              "name": "Sisainen",
+              "json3d": "src/assets/models/innerblue.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 300
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Ulompi/outer",
+          "instances": [
+            {
+              "code": "PLS615E",
+              "name": "Ulompi",
+              "json3d": "src/assets/models/outter.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 120
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Kostea/humid",
+          "instances": [
+            {
+              "code": "PLS616E",
+              "name": "Kostea",
+              "json3d": "src/assets/models/humid.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PLS1022",
+      "name": "PW-Spa",
+      "price": 2350,
+      "objects": [
+        {
+          "type": "object",
+          "name": "Kylpytynnyrin pohjaosa",
+          "instances": [
+            {
+              "code": "PLS21",
+              "name": "Bottom",
+              "json3d": "src/assets/models/bottom.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 550
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Kylpytynnyrin Kansi",
+          "instances": [
+            {
+              "code": "PLS25B",
+              "name": "Cap",
+              "json3d": "src/assets/models/capblack.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 199
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Kamiina",
+          "instances": [
+            {
+              "code": "PLS601",
+              "name": "Power",
+              "json3d": "src/assets/models/power.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 699
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Sisäinen",
+          "instances": [
+            {
+              "code": "PLS64E",
+              "name": "Inner",
+              "json3d": "src/assets/models/innerblue.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 300
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Ulompi",
+          "instances": [
+            {
+              "code": "PLS61E",
+              "name": "outer",
+              "json3d": "src/assets/models/outter.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 120
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "Kostea",
+          "instances": [
+            {
+              "code": "PLS616",
+              "name": "humid",
+              "json3d": "src/assets/models/humid.js",
+              "scale_x": 15,
+              "scale_y": 15,
+              "scale_z": 15,
+              "price": 95
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
