@@ -1,7 +1,25 @@
-let express = require('express');
-let multer = require('multer');
-let path = require('path');
-let app = express();
+const express = require('express');
+const multer = require('multer');
+const path = require('path');
+const fs = require('fs');
+const app = express();
+
+// const deleteFile = (file) => {
+//   fs.unlink('' + file, (error) => {
+//     if (error) throw error;
+//   });
+// }
+
+// let timeOuts = [];
+
+// app.post('/upload', (req, res) => {
+//   const timer = setTimeout(() => deleteFile(req.body.file), time_remaining(req.body.date));
+//   timeOuts.push(timer);
+// });
+
+// fs.unlink('./uploads/JSONconfigurator/data2.json', () => {
+//   console.log('Done');
+// });
 
 //allow access to folder
 app.use('/uploads', express.static(__dirname + '/uploads'));
